@@ -1,0 +1,67 @@
+html {
+  background-color: rgba(197, 99, 107, 0.541);
+  color: rgb(48, 45, 45)
+}
+
+//Header
+header {
+  font-family: Lato;
+}
+
+header > p {
+  justify-content: center;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.nav-list {
+  overflow: hidden;
+}
+
+.nav-list > li {
+  float: left;
+  text-align: center;
+  margin: 0px 20px;
+  
+}
+
+.nav-list > li:hover {
+  color: red;
+}
+
+
+.browsers {
+  display: flex;
+  justify-content: space-around;
+  max-width: fit-content;
+}
+
+article {
+  background-color: rgba(252, 252, 252, 0.767);
+  font-family: Lato;
+  padding: 16px;
+  margin: 4px;
+  
+}
+
+article:hover {
+  background-color: rgb(64, 99, 104);
+}
+
+article > h3 {
+  text-align: center;
+}
+
+article > img {
+  margin: auto;
+  display: block;
+  max-width: 100px;
+}
+
+footer {
+  font-family: Lato;
+  font-size: small;
+  display: flex;
+  justify-content: center;
+  color: rgb(48, 45, 45)
+}
